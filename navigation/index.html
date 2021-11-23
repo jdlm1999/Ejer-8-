@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Dog's page." />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Navigation a11y</title>
+  </head>
+  <body>
+    <main>
+      <h1>Navigation & Tabs</h1>
+      <div class="container">
+        <form action="post">
+          <label for="FirstName">First Name: </label>
+          <input type="text" id="FirstName" placeholder="First Name" />
+          <label for="LastName">
+            Last Name:
+            <input type="text" id="LastName" placeholder="Last Name" />
+          </label>
+          <button onclick="printMessage(event)" class="button">Submit</button>
+        </form>
+        <img
+          src="../assets/images/dog-small.jpeg"
+          alt="Puppy with a red collar"
+          width="275px"
+          height="183px"
+        />
+      </div>
+    </main>
+    <script src="./index.js"></script>
+  </body>
+</html>
